@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+*{
+    font-family: "Playwrite DE Grund", cursive;
+}
+nav{
+    background-color: black;
+}
+/* Head title  */
+.headtitle{
+    background-color: red;
+   
+}
+.headtitle h1{
+    text-align: center;
+    font-size:10px;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 500;
+    text-decoration:solid ;
+}
+/* End head title  */
+/* Second title  */
+.heading{
+    background-color: black;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+    
+    ;
+}
+.searchheading{
+    width: 20px;
+    height: 20px;
+    filter: invert(99%) sepia(0%) saturate(0%) hue-rotate(97deg) brightness(106%) contrast(100%);
+
+}
+.palestineheading{
+    width: 150px;
+    height: 150px;
+    
+}
+.cartheading{
+    width: 25px;
+    height: 25px;
+    filter: invert(99%) sepia(0%) saturate(0%) hue-rotate(97deg) brightness(106%) contrast(100%);
+
+
+}
+
+/* End second title  */
+/* windows */
+
+.windows ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    
+
+
+}
+.windows a{
+    color: white;
+    text-decoration: none;
+}
+.windows li{
+    color: white;
+    font-size: 13px;
+    margin-bottom: 15px;
+
+}
+.windows li:hover{
+    text-decoration: underline;
+}
+/* end windows */
+/* products showcase */
+.productstitle{
+    width: 50%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.producttile{
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.producttile h1{
+    font-size: 16px;
+}
+#kuffiyastitle{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+#clothingtitle{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+    
+}
+#jewelrytitle{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+#flagstitle{
+    width: 100%;
+    height: 110%;
+    border-radius: 50%;
+    border-width: 1px;
+    border: black;
+    margin-bottom: 30px;
+
+}
+#headweartitle{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+
+}
+
+#accessoriestitle{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+/* end prodcuts showcase */
+/* Grand display */
+.granddisplay{
+    width: 100%;
+    background-color: blue;
+    height: 600px;
+}
+.granddisplay img{
+    width: 100%;
+    height: 100%;
+}
+.switchbuttonsgranddisplay{
+    width: 15%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.arrowsgranddisplay{
+    width: 15px;
+}
+.arrowsgranddisplay:hover{
+    filter: invert(57%) sepia(0%) saturate(0%) hue-rotate(208deg) brightness(88%) contrast(90%);
+    width: 17px;
+}
+.switchbuttonsgranddisplay img{
+    height: 50%;
+}
+.circlesgranddisplay{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.circlesgranddisplay img{
+    width: 15px;
+    height: 70%;
+    padding: 3px;
+}
+.circlesgranddisplay img:hover{
+    filter: invert(57%) sepia(0%) saturate(0%) hue-rotate(208deg) brightness(88%) contrast(90%);
+    width: 17px;
+}
+/* End grand display */
+/* Sellers */
+.sellerstitle{
+   margin-left:150px;
+}
+.sellerstitle h2{
+    font-size: 15px;
+    font-weight: 200;
+}
+/* end sellers */
+/* Products To Sell */
+.productstosell{
+    display: flex;
+    margin-left: 150px;
+    height: 300px;
+    
+    
+}
+.producttosell{
+    width: 30%;
+    height: 100%;
+    padding-right: 8px;
+}
+.productstosell img{
+    width: auto;
+    height: 70%;
+
+
+}
+.productstosellproperties p{
+    font-size: 13.5px;
+    font-weight: 500;
+
+}
+.productstosellproperties h1{
+    font-size: 10px;
+    font-weight: 900;
+}
+.productstosellswitchers{
+    width: 9%;
+    margin: 20px 650px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.productstosellswitchers img{
+    width: 13%;
+
+}
+.productstosellswitchers p{
+    font-size: 10px;
+}
+#viewallproductsbutton{
+    margin: 2px 639px ;
+    width: 150px;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 900;
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+}
+
+
+/* End products to sell */
+/* Palestine Aid Your Impact */
+.aidmain{
+    margin-top: 80px;
+    margin-left:150px;
+    display: flex;
+    justify-content: space-between;
+}
+.aidmain img{
+    width:45%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius:20px ;
+}
+.aidtext{
+    width: 50%;
+    padding-top: 20px;
+    
+    
+}
+.aidtext h1{
+    font-size: 32px;
+}
+.aidtext p{
+    font-size: 14px;
+    line-height: 2.3;
+    font-weight: 400;
+    color: rgb(128, 128, 128);
+    
+
+}
+.aidtext button{
+    margin-top: 10px;
+    width: 130px;
+    height: 35px;
+    font-size: 13px;
+    font-weight: 900;
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+}
+   
+/* End Palestine Aid Your Impact */
+/* social media */
+.socialmedia{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.socialmedia h1{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.socialmedia h2{
+    font-weight: 500;
+    font-size: 12px ;
+    color: grey;
+}
+.socialmediaimgs{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 230px;
+    margin-right: 150px;
+}
+.socialmediaimgs img{
+    width: 20%;
+    height: 250px;
+    margin: 3px;
+}
+/* End Social media */
+/*  subscription */
+.subscription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.subscription h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+.subscription h2{
+    font-size: 13px;
+    font-weight: 500;
+    color: grey;
+    text-align: center;
+}
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.input-box {
+    position: relative;
+    border: solid black;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 2px 2px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 380px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.input-box:hover{
+    border-width: 2px; 
+}
+
+
+
+input[type="email"]:focus + .submit-btn + .input-label,
+
+input[type="email"] {
+    border: none;
+    outline: none;
+    flex: 1;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.submit-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+    margin-left: 10px;
+}
+  
+/* End subscription */
+/* footer */
+.mainfooter{
+    background-color: black;
+   
+}
+.footermanager{
+    width:75%;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.firstfooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.firstfooter h1{
+    font-size: 17px;
+    color: white;
+}
+
+
+.firstfooter ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+
+}
+.firstfooter li{
+    font-size: 13px;
+    color: grey;
+    font-weight: 400;
+}
+.firstfooter li:hover{
+    color: white;
+    text-decoration: underline;
+}
+.mediafooter{
+    display: flex;
+    
+}
+.mediafooter img{
+    width: 20px;;
+    margin: 20px 6px;
+    filter: invert(100%) sepia(0%) saturate(7498%) hue-rotate(320deg) brightness(99%) contrast(103%);
+    border-radius: 50%;
+}
+.mediafooter img:hover{
+    box-shadow: 4px 13px 30px 5px rgba(53,53,53,0.7);
+    -webkit-box-shadow: 4px 13px 30px 5px rgba(53,53,53,0.7);
+    -moz-box-shadow: 4px 13px 30px 5px rgba(53,53,53,0.7);
+}
+.secondfooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 50px 0;
+}
+.paymentfooter{
+    display: flex;
+}
+.paymentfooter img{
+    width: 50px;
+    height: 30px;
+
+}
+.secondfooter h4{
+    font-size: 10px;
+    font-weight: 400;
+    color: grey;
+}
+.secondfooter span:hover{
+    color: white;
+    text-decoration: underline;
+}
+/* end footer */
+/*Specefic Products To Sell */
+.speceficproductstosell{
+   
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 180px;
+    height: 300px;
+    margin-bottom:700px;
+    
+    
+}
+.speceifcproducttosell{
+    width: 22%;
+    height: 100%;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.speceficproductstosell img{
+    width: auto;
+    height: 70%;
+   
+}
+.speceficproductstosellproperties p{
+    font-size: 13.5px;
+    font-weight: 500;
+
+}
+.speceficproductstosellproperties h1{
+    font-size: 10px;
+    font-weight: 900;
+}
+/* End specefic prodcuts to sell */
+/* About us text */
+.aboutustext{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   margin-left:300PX ;margin-right: 50px;
+}
+.aboutustext h1{
+    margin-left: 15px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.aboutustext h2{
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.aboutustext h4{
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.aboutustext p{
+    line-height: 2.4;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+/* End about us text */
+
+
+
+
+
