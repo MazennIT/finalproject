@@ -186,6 +186,27 @@ nav{
     filter: invert(57%) sepia(0%) saturate(0%) hue-rotate(208deg) brightness(88%) contrast(90%);
     width: 17px;
 }
+radio-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.radio-buttons input[type="radio"] {
+    display: none;
+}
+
+.radio-buttons label {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.radio-buttons input[type="radio"]:checked + label {
+    background-color: black;
+}
 /* End grand display */
 /* Sellers */
 .sellerstitle{
@@ -239,7 +260,7 @@ nav{
 .productstosellswitchers p{
     font-size: 10px;
 }
-#viewallproductsbutton{
+.viewallproductsbutton{
     margin: 2px 639px ;
     width: 150px;
     height: 40px;
@@ -317,10 +338,27 @@ nav{
     margin-left: 230px;
     margin-right: 150px;
 }
-.socialmediaimgs img{
+.socialmediaimgs span{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.652);
+    position: absolute;
+    display: none;
+}
+.socialmediaimgs div:hover .sp{
+    display: block;
+}
+.socialmediaimgs div{
     width: 20%;
     height: 250px;
     margin: 3px;
+    position: relative;
+    
+}
+.socialmediaimgs img{
+    width: 100%;
+    height: 100%;
+    
 }
 /* End Social media */
 /*  subscription */
@@ -394,7 +432,7 @@ input[type="email"] {
 }
 .footermanager{
     width:75%;
-    margin-left: 200px;
+    margin-left: 180px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -409,13 +447,19 @@ input[type="email"] {
 .firstfooter h1{
     font-size: 17px;
     color: white;
+    margin-left: 5px;
 }
-
+.firstfooter a{
+    text-decoration: none;
+    color: grey;
+}
 
 .firstfooter ul{
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 20px;
+    margin-right: 40px;
+    
 
 }
 .firstfooter li{
@@ -423,7 +467,7 @@ input[type="email"] {
     color: grey;
     font-weight: 400;
 }
-.firstfooter li:hover{
+.firstfooter a:hover{
     color: white;
     text-decoration: underline;
 }
@@ -433,7 +477,7 @@ input[type="email"] {
 }
 .mediafooter img{
     width: 20px;;
-    margin: 20px 6px;
+    margin: 20px 8px;
     filter: invert(100%) sepia(0%) saturate(7498%) hue-rotate(320deg) brightness(99%) contrast(103%);
     border-radius: 50%;
 }
@@ -473,7 +517,7 @@ input[type="email"] {
     flex-wrap: wrap;
     margin-left: 180px;
     height: 300px;
-    margin-bottom:700px;
+    margin-bottom:750px;
     
     
 }
@@ -527,8 +571,31 @@ input[type="email"] {
 }
 
 /* End about us text */
-
-
+.totalprice{
+    display: flex;
+    position: fixed;
+    background-color:black;
+    bottom: 0;
+    right: 0;
+    color: white;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.totalprice h1{
+    font-size: 10px;
+}
+.totalprice input{
+    border:none;
+    font-size: 10px;
+    width: 30px;
+    color: white;
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.
 
 
 

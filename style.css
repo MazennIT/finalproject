@@ -1,0 +1,42 @@
+.speceficallproductstosell{
+   
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 180px;
+    height: 300px;
+    margin-bottom:5300px;
+    margin-top: 40px;
+    
+    
+}
+.speceficallproducts{
+    width: 22%;
+    height: 100%;
+    padding-right: 20px;
+    padding-bottom: 70px;
+}
+.speceficallproducts img{
+    width: auto;
+    height: 70%;
+   
+}
+.speceficallproductstosellpropreties p{
+    font-size: 13.5px;
+    font-weight: 500;
+
+}
+.speceficallproductstosellpropreties h1{
+    font-size: 10px;
+    font-weight: 900;
+}
+.allproductsbutton{
+    margin-left: 100px;
+    width: 130px;
+    height: 30px;
+    font-size: 10px;
+    font-weight: 900;
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+    
+}   
